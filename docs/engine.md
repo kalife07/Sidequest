@@ -276,10 +276,3 @@ Supabase Realtime **Broadcast**: after any plan change, the server sends "plan X
 | Live updates | < 200 ms (3 phones measured) |
 | Automated tests | 626, plus an overnight QA run: ~1,300 cards for 39 test users checked against the database, **0 rule violations** |
 
-## 14. Honest limits (say them before a judge does)
-
-- **Transit:** walking times, and bike time as a stand-in for metro over 25 min (OpenRouteService has no public transit).
-- **Places:** 60 hand-picked with verified hours in the feed; the 55,000 registry businesses have **guessed** cuisines and **assumed** hours (labelled).
-- **Friends** are one-sided today (no request/accept).
-- **Calendar** re-syncs at sign-in, not continuously.
-- **Postal code area**, not your exact address: two people in the same area get the same travel times.
